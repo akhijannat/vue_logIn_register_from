@@ -36,7 +36,7 @@ function showLoginForm() {
 
 <template>
   <section
-    class="h-screen w-full flex bg-gradient-to-r from-indigo-500/25 via-purple-500/25 to-pink-500/25"
+    class="h-screen flex bg-gradient-to-r from-indigo-500/25 via-purple-500/25 to-pink-500/25"
     id="app"
   >
     <!-- Show welcome message if the user is logged in -->
@@ -49,9 +49,9 @@ function showLoginForm() {
     </div>
 
     <!-- Show login and registration forms if the user is not logged in -->
-    <div v-else class="grid grid-cols-2">
+    <div v-else class="container grid grid-cols-2 gap-10">
       <div
-        class="h-screen w-[650px]"
+        class="h-screen"
         style="
           background-image: url(https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
           background-repeat: no-repeat;
